@@ -9,7 +9,7 @@ fi
 # Get or update dot files 
 CONFIG=/usr/local/share/dot-files
 if [ ! -d $CONFIG ]; then
-  git clone https://gitlab.com/helmutkan/dot-files.git $CONFIG
+  git clone https://github.com/kkostrebic/dot-files.git $CONFIG
 fi
 
 # Link dot files
