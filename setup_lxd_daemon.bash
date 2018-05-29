@@ -19,3 +19,6 @@ EOF
 systemctl daemon-reload
 systemctl enable lxd.service
 systemctl start lxd.service
+
+# lxd needs to be initialized by running: 
+# lxd init
