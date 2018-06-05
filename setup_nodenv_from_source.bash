@@ -24,5 +24,8 @@ for filename in $TMP_PATH/bin/*; do
   ln -s $filename $target_path
 done
 
+# Install nodenv-build plugin (enables install option)
+git clone https://github.com/nodenv/node-build.git $(nodenv root)/plugins/node-build
+
 # Initialize 
 $TMP_PATH/bin/nodenv init
