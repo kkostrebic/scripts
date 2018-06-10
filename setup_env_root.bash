@@ -14,6 +14,7 @@ apt install net-tools\
             zsh\
             git\
             exuberant-ctags\
+            dirmngr\
             ufw -y
 
 # Install ripgrep (not available from package repository for debian)
